@@ -1,4 +1,4 @@
-import { DashboardComponent } from './../../../../GitRepo/src/app/dashboard/dashboard.component';
+
 import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
@@ -16,7 +16,7 @@ export class LoginComponent implements OnInit {
 
   loggedIn = false;
 
-  constructor(private route: Router, private login: DashboardComponent) { }
+  constructor(private route: Router) { }
   ngOnInit(): void {
   }
 
